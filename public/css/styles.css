@@ -1,0 +1,106 @@
+.hero-section-custom {
+    height: 650px;
+    background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+    /* Other styles */
+}
+.hero-section-custom img{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 100px 350px 250px 500px;
+    margin-top: 80px;
+}
+/* Custom Styles for About Section */
+#about {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+}
+
+.about-image {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    padding: 0 30px;
+}
+
+.section-title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.skills-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.skills ul {
+    margin-left: 20px;
+    padding-left: 0;
+    color: #555;
+}
+
+.skills ul li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.skills ul li:before {
+    content: "\2022";
+    color: #8f94fb;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+/* Custom Styles for Portfolio Section */
+#portfolio {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 3rem;
+    color: #333;
+}
+
+.portfolio-card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+
+.card-body {
+    border-radius: 0 0 15px 15px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #555;
+}
+
+
+/* Additional styles for footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
